@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28604D7F-E427-A312-3D01-A719D54EEE48" name="Turma">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:32:35 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="atividade" id="B8093C39-79D2-6A75-C825-65B9483F7C99">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:36:49 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeros de alunos" id="E7DE819B-EF18-5A0C-D94B-1D44DA8A7634">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:38:14 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Horário" id="ED4D6CCA-25B1-8A90-5453-41727520E32B">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:38:30 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duração aula" id="9195869D-2BD3-B1E1-3744-C80E68C240CA">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:39:03 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data inicial" id="B084F04A-6D24-22B8-8C60-ED50091973C7">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:39:31 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data final" id="8D5C7D9E-AF5D-2504-5413-8C847CDECF7D">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:39:40 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
