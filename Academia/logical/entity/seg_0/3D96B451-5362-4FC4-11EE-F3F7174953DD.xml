@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="035F66E6-E8DB-2B39-71FB-43ED8EFBBE32" name="Instrutor">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D96B451-5362-4FC4-11EE-F3F7174953DD" name="Atividades">
 <createdBy>Geral</createdBy>
-<createdTime>2023-03-04 02:33:56 UTC</createdTime>
+<createdTime>2023-03-04 03:01:41 UTC</createdTime>
 <ownerDesignName>Academia</ownerDesignName>
 <engineerTo>
 <item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
@@ -15,70 +15,56 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="RG" id="A10C6E9A-93E7-4BDB-169E-ED8E0229B90E">
+<Attribute name="Nome" id="246D2ED2-0E23-6EA3-98EE-9230B67781CF">
 <createdBy>Geral</createdBy>
-<createdTime>2023-03-04 02:40:09 UTC</createdTime>
+<createdTime>2023-03-04 03:03:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Multivaloravel
+
+
+]]></commentInRDBMS>
 <ownerDesignName>Academia</ownerDesignName>
 <engineerTo>
 <item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nome" id="9D042354-94E0-693A-1C2F-324AF0F9785C">
+<Attribute name="Duração" id="DAEBF02E-D9BA-F17F-87DD-A7661CE82458">
 <createdBy>Geral</createdBy>
-<createdTime>2023-03-04 02:40:15 UTC</createdTime>
+<createdTime>2023-03-04 03:01:58 UTC</createdTime>
 <ownerDesignName>Academia</ownerDesignName>
 <engineerTo>
 <item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Data nascimento" id="2008CEC0-4EC8-4477-04A7-E59803D8DCFF">
+<Attribute name="Data" id="B5B39ED5-BE06-E76D-8B59-CA0A3162FE0F">
 <createdBy>Geral</createdBy>
-<createdTime>2023-03-04 02:40:21 UTC</createdTime>
+<createdTime>2023-03-04 03:02:11 UTC</createdTime>
 <ownerDesignName>Academia</ownerDesignName>
 <engineerTo>
 <item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Titulos" id="A8F1FC01-3616-03D4-1A69-EB99489AF27F">
+<Attribute name="Horario" id="734B879B-FDC0-1785-BB4C-F739D108EF45">
 <createdBy>Geral</createdBy>
-<createdTime>2023-03-04 02:40:47 UTC</createdTime>
+<createdTime>2023-03-04 03:02:26 UTC</createdTime>
 <ownerDesignName>Academia</ownerDesignName>
 <engineerTo>
 <item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Telefones" id="2C6A2840-D6F3-1108-4E22-F633B81FA401">
-<createdBy>Geral</createdBy>
-<createdTime>2023-03-04 02:41:17 UTC</createdTime>
-<ownerDesignName>Academia</ownerDesignName>
-<engineerTo>
-<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="localização" id="3066FBA2-288D-D836-D0A4-9F7D62922458">
-<createdBy>Geral</createdBy>
-<createdTime>2023-03-04 02:41:39 UTC</createdTime>
-<ownerDesignName>Academia</ownerDesignName>
-<engineerTo>
-<item key="97B77BF9-74E9-897E-91E5-5CB820B81F0A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
